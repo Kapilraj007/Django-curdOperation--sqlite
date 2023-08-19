@@ -1,0 +1,14 @@
+img{
+    width: 300px;
+    height: 350px;
+    margin-top: 700px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 15px 1px black;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    color: rgb(rgb(90, 15, 15), rgb(57, 110, 57), rgb(165, 29, 142));
+}
