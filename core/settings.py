@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-qz&dy)ez$eyx7*#1=_=-c8bbf#(94ctj=so*#)=i%4-48*$+-8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -119,8 +119,9 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
+  os.path.join(BASE_DIR , "static"),
 ]
 
 # Default primary key field type
