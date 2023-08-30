@@ -1,2 +1,0 @@
-web: gunicorn Django-curdOperation--sqlite.wsgi --log-file-
-worker: celery -A home worker --loglevel=info
